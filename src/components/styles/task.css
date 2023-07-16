@@ -1,0 +1,63 @@
+.task {
+    width: 80%;
+    height: 3rem;
+    margin: 5px auto;
+
+    color: white;
+    padding-left: 1.5rem;
+    text-align: start;
+    font-size: 20px;
+    display: flex;
+
+    border: 2px solid #33546a96;
+    border-radius: 5px;
+
+    transition: background-color 0.5s ease;
+    transition: width 0.5s ease;
+
+}
+
+.task:hover {
+    width: 83%;
+    background-color: #284c64;
+}
+
+.buttons {
+    padding-left: 8rem;
+    width: 20%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.taskText {
+    margin: auto;
+    height: fit-content;
+    width: 80%;
+}
+
+.editButton {
+    border-color: transparent;
+    background-color: #15415f;
+    border-radius: 5px;
+    color: white;
+
+    margin-right: 5px;
+}
+
+.editButton:hover{
+    background-color: #15415f9d;
+    cursor: pointer;
+}
+
+.delButton {
+    border-color: transparent;
+    border-radius: 5px;
+    color: white;
+    background-color: #642828;
+}
+
+.delButton:hover{
+    background-color: #6428289f;
+    cursor: pointer;
+}

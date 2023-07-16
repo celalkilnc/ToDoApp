@@ -1,0 +1,106 @@
+.HomePage {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 42rem;
+    margin-top: 1.5rem;
+}
+
+.ListBorder {
+    background-color: rgba(38, 45, 61, 255);
+    height: 90%;
+    width: 50%;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 6px;
+}
+
+
+
+.CardHeader {
+    height: 2rem;
+    padding: 1rem;
+    color: white;
+    text-align: center;
+}
+
+
+.CardBody {
+    height: 80%;
+    overflow-y: auto;
+}
+
+.AddItems {
+    height: 2rem;
+    display: flex;
+}
+
+.AddTaskText {
+    text-align: center;
+    color: white;
+    background-color: #284c64;
+    border-color: transparent;
+    margin: 0px auto;
+    width: 15rem;
+    height: 1.5rem;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.Title { 
+    margin: 0px;
+    text-align: center;
+    transition: font-size 0.2s ease;
+}
+
+.Title:hover {
+    font-size: 25px;
+}
+
+.AddItems {
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: fit-content;
+    padding-top: 0.7rem;
+}
+
+.AddTaskText::selection {
+    color: #284c64;
+    background-color: white;
+}
+
+.AddTaskButton {
+    color: white;
+    background-color: #284c64;
+    height: 1.82rem;
+    border-color: transparent;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-left-color: white;
+    transition: background-color 0.5s ease;
+}
+
+.AddTaskButton:hover {
+    background-color: #284c6496;
+    cursor: pointer;
+}
+
+.CardBody::-webkit-scrollbar {
+    width: 10px;
+    background-color: transparent;
+}
+
+.CardBody::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    background-color: transparent;
+}
+
+.CardBody::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+}
+
+.CardBody::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
