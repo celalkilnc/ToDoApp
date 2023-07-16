@@ -46,15 +46,16 @@
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
 }
-
+ 
 .Title { 
     margin: 0px;
     text-align: center;
-    transition: font-size 0.2s ease;
+    transition: all 0.3s ease;
 }
 
 .Title:hover {
     font-size: 25px;
+    cursor: default;
 }
 
 .AddItems {
