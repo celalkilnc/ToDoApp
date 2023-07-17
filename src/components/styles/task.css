@@ -5,6 +5,7 @@
 
     color: white;
     padding-left: 1.5rem;
+    padding-right: 1.5rem;
     text-align: start;
     font-size: 20px;
     display: flex;
@@ -25,16 +26,21 @@
 
 .buttons {
     padding-left: 8rem;
-    width: 20%;
     margin: auto;
+    width: 15%;
     align-items: center;
     justify-content: center;
+    display: flex;
 }
 
 .taskText {
     margin: auto;
     height: fit-content;
     width: 80%;
+}
+
+.taskText:hover{
+    cursor: pointer;
 }
 
 .editButton {
@@ -52,6 +58,7 @@
 }
 
 .delButton {
+    text-align: center;
     border-color: transparent;
     border-radius: 5px;
     color: white;

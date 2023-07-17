@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "../styles/task.css";
 import { AnimatedDiv } from "../animated/AnimatedDiv";
 
-function Task({ text }) {
+function Task({ text, del }) {
   const [isEnd, setIsEnd] = useState(false);
   const [isHover, setIsHover] = useState(false);
 
@@ -28,8 +28,10 @@ function Task({ text }) {
         <div className="buttons">
           {isHover && (
             <AnimatedDiv>
-              <button className="editButton">edit</button>
-              <button className="delButton">del</button>
+              {/* <button className="editButton">edit</button> */}
+              <button className="delButton" >
+                del
+              </button>
             </AnimatedDiv>
           )}
         </div>

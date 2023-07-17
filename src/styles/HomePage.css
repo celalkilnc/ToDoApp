@@ -15,8 +15,6 @@
     border-radius: 6px;
 }
 
-
-
 .CardHeader {
     height: 2rem;
     padding: 1rem;
@@ -71,6 +69,10 @@
     background-color: white;
 }
 
+.AddTaskText:focus{ 
+    background-color: #284c64;
+}
+
 .AddTaskButton {
     color: white;
     background-color: #284c64;
@@ -78,7 +80,7 @@
     border-color: transparent;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
-    border-left-color: white;
+    border-left-color: #3e5e74;
     transition: background-color 0.5s ease;
 }
 
